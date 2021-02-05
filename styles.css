@@ -1,3 +1,13 @@
+h1, h2{
+    font-family: 'Lobster', sans;
+}
+
+.accroche{
+    height:500px;
+}
 h1{
-    font-family: 'Lobster', cursive;
+   font-size: 6rem;
+}
+.centreAlignement{
+    width:100%;
 }
