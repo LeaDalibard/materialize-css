@@ -17,7 +17,6 @@
     <link rel="stylesheet" href="styles.css">
 
 
-
 </head>
 <body>
 
@@ -25,7 +24,20 @@
 <nav>
     <div class="nav-wrapper indigo ">
         <a href="index.html" class="brand-logo">Logo</a>
+
+        <a href="#" data-target="mobile-menu"  class="sidenav-trigger">
+            <!--data-activates need to match with id of corresponding menu + need to be activated with Jquery code-->
+            <i class="material-icons">menu</i>
+        </a>
+
         <ul class="right hide-on-med-and-down">
+            <li><a href="#">Homepage</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Where to find us</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+        <ul class="sidenav" id="mobile-menu">
             <li><a href="#">Homepage</a></li>
             <li><a href="#">About us</a></li>
             <li><a href="#">Where to find us</a></li>
@@ -44,6 +56,13 @@
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <!-- Compiled and minified JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+        $('.sidenav').sidenav();
+    });
+
+</script>
 
 </body>
 </html>
