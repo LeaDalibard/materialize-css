@@ -6,5 +6,6 @@ $(document).ready(function(){
         indicators: true,
     });
     $('.slider').slider({fullWidth: true});
+    $('select').formSelect();
 });
 
