@@ -23,6 +23,6 @@ h2{
 }
 
 
-.indicator-item.active {
-     background-color: indigo;
- }
+.slider .indicators .indicator-item.active {
+    background-color: #3f51b5 ;
+}
