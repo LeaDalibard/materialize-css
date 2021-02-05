@@ -5,4 +5,6 @@ $(document).ready(function(){
         fullWidth: true,
         indicators: true,
     });
+    $('.slider').slider({fullWidth: true});
 });
+
