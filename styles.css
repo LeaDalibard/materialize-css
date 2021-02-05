@@ -8,6 +8,14 @@ h1, h2{
 h1{
    font-size: 6rem;
 }
+h2{
+    font-size: 2.6rem;
+}
 .centreAlignement{
     width:100%;
+}
+
+.padding-perso{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
 }
